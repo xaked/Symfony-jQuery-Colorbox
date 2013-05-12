@@ -1,0 +1,23 @@
+{
+    "name": "kvdh/symfony-jquery-colorbox",
+    "description": "jQuery Colorbox vendor package for Symfony 2.x",
+    "keywords": ["jquery","colorbox","symfony"],
+    "homepage": "https://github.com/caoimhin/Symfony-jQuery-Colorbox",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Van Den Haute",
+            "email": "kevin@vandenhaute.me",
+            "homepage": "http://www.lonelycoder.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Kvdh\\jQueryColorboxBundle": "" }
+    },
+    "target-dir": "Kvdh/jQueryColorboxBundle"
+}
